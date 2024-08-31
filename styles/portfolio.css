@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #fd6a9f;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -102,6 +102,37 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
