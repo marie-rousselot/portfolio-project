@@ -25,9 +25,40 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=<h1>, initial-scale=1.0" />
-    <title>Marie Rousselot - About</title>
+      <meta name="description" content="Marie Rousselot is a front-end developer based in Perth, Australia. Her professional brand name is CodingPro.">
+    <title>About Marie Rousselot - CodingPro</title>
   </head>
   <body>
+      <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="./index.html" title="Homepage">
+          <img
+            src="images/codingpro_logo.png"
+            class="logo d-none d-md-block"
+            alt="Marie Rousselot CodingPro logo"
+          />
+          <img
+            src="images/codingpro_logo_small.png"
+            class="logo d-block d-md-none"
+            alt="CodingPro logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="./index.html" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="./about.html" title="About Marie"> About</a>
+          </li>
+          <li>
+            <a href="./work.html" title="Marie's Work"> Work</a>
+          </li>
+          <li>
+            <a href="./contact.html" title="Contact Marie"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -35,18 +66,60 @@
             <h1 class="mb-4">Hi, I am Marie Rousselot</h1>
             <h2 class="mb-4">Front-end developer based in Perth, Australia</h2>
             <p class="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
+              After about 20 years spent in the tourism industry, I decided to start a brand new career path. It all started with an add promoting coding workshops for women. So far, the coding world appeared to me as daunting and out of reach. It was not. Within one webinar, I was hooked. It was possible. I could do it. I am doing it. I am still learning, and always will, but the more I achieve in this course and the more I believe in myself. If <a href="https://www.shecodes.io/">SheCodes</a>, I code.
             </p>
-            <a href="work.html" class="btn btn-branding">See my projects</a>
+            <a href="work.html" class="btn btn-branding" title="See Marie's projects">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/marie_headshot3.png" alt class="img-fluid" />
+          <img src="images/marie_headshot3.png" alt="Marie's photo" class="img-fluid" />
         </div>
       </div>
+        <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="btn btn-branding"
+              title="Contact Marie"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:marie.codingpro@gmail.com"
+            class="email-link"
+            title="Email Marie"
+          >
+            marie.codingpro@gmail.com
+          </a>
+        </div>
+        <div class="social-links text-center">
+          <a href="https://www.instagram.com/marie.codingpro/" target="_blank" title="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/marie-rousselot" target="_blank" title="GitHub profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/marie-rousselot-codingpro/"
+            target="_blank" title="Linkedin profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">💻 This project was coded by Marie Rousselot under the guidance of 
+          <a href="https://www.shecodes.io/" target="_blank">SheCodes</a> and it is 
+          <a href="https://github.com/marie-rousselot/portfolio-project" target="_blank">open-sourced</p>
+      </footer>
     </div>
+    
   </body>
 </html>
